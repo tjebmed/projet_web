@@ -1,0 +1,41 @@
+@media (max-width: 700px) {
+
+    /* Hero section */
+    .image-box {
+        display: none;
+    }
+    /* Features section */
+    #features .device img {
+        margin-bottom: 2rem;
+    }
+
+    /* Contact section */
+    #contact .address {
+        margin-top: 2rem;
+    }
+    /* footer section */
+    .footer-logo {
+        margin-top: -1rem;
+    }
+}
+@media (max-width: 768px) {
+
+    /* Hero section */
+    .main-hero-content h1 {
+        text-align: center;
+    }
+
+    .main-hero-content p {
+        text-align: center;
+    }
+
+    .hero-buttons {
+        text-align: center;
+        padding-bottom: 2rem;
+    }
+
+    /* Features section */
+    #features {
+        margin-top: 0 ;
+    }
+}
